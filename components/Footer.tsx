@@ -17,7 +17,11 @@ export default function Footer() {
 
           <div className="flex flex-wrap justify-center gap-x-4 gap-y-2">
             {navItems.map((item) => (
-                <a href={item.href} className="hover:text-accent-fg transition-colors">
+              <a
+                key={item.href}
+                href={item.href}
+                className="hover:text-accent-fg transition-colors"
+              >
                 {item.label}
               </a>
             ))}

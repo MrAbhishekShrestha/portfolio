@@ -181,7 +181,7 @@ export default function Intro() {
                 className="text-accent-fg font-semibold hover:underline"
               >
                 odoo
-              </a>'s competitor) 
+              </a>&apos;s competitor) 
               used by hundreds of businesses
               across South East Asia and processing millions of transactions/month.
             </li>
