@@ -2,6 +2,8 @@
 
 My first developer portfolio website. I've tried to keep it clean, mobile-first and taken inspiration from GitHub's profile aesthetic.
 
+🚀 LIVE on Vercel at https://abhishekshrestha.link/ 
+
 ## 🛠️ Tech Stack
 
 - **Framework**: Next.js 16 (App Router)

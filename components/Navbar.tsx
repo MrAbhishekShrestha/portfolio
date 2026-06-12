@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 export default function Navbar() {
   const [theme, setTheme] = useState<"light" | "dark">("dark");
@@ -39,13 +40,13 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border-default bg-canvas-default/80 backdrop-blur-md transition-colors duration-200">
       <div className="mx-auto flex h-14 max-w-3xl items-center justify-between px-4 sm:px-6">
-        <a
-          href="#overview"
+        <Link
+          href="/"
           className="flex items-center gap-2 font-mono text-sm font-semibold tracking-tight hover:text-accent-fg"
         >
           <span className="text-accent-fg">/</span>
-          <span>MrAbhishekShrestha</span>
-        </a>
+          <span>AbhishekShrestha</span>
+        </Link>
 
         <div className="flex items-center gap-6">
           <nav className="hidden sm:flex items-center gap-4 text-sm font-medium">

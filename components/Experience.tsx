@@ -56,7 +56,7 @@ export default function Experience() {
         {experiences.map((exp, index) => (
           <div key={index} className="relative group">
             {/* Timeline node - GitHub action icon style */}
-            <span className="absolute -left-[51px] top-1.5 flex h-[22px] w-[22px] items-center justify-center rounded-full bg-canvas-subtle border border-border-default text-fg-muted ring-4 ring-canvas-default">
+            <span className="absolute -left-[44px] top-1.5 flex h-[22px] w-[22px] items-center justify-center rounded-full bg-canvas-subtle border border-border-default text-fg-muted ring-4 ring-canvas-default">
               <svg
                 viewBox="0 0 16 16"
                 fill="currentColor"

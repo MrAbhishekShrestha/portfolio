@@ -103,7 +103,7 @@ export default function Intro() {
             >
               <path d="M4 1.75V0h2v1.75a.25.25 0 0 0 .25.25h1.5a.25.25 0 0 0 .25-.25V0h2v1.75c0 .414.336.75.75.75h.5a.75.75 0 0 0 .75-.75V0h1.75c.966 0 1.75.784 1.75 1.75v12.5A1.75 1.75 0 0 1 13.75 16H2.25A1.75 1.75 0 0 1 .5 14.25V1.75C.5.784 1.284 0 2.25 0H4a.75.75 0 0 1 .75.75v1a.25.25 0 0 0 .25.25h1.5A.25.25 0 0 0 7 1.75V.75A.75.75 0 0 1 7.75 0H9.5a.75.75 0 0 1 .75.75v1a.25.25 0 0 0 .25.25h1.5a.25.25 0 0 0 .25-.25V.75a.75.75 0 0 1 .75-.75H13.75c.414 0 .75.336.75.75v12.5a.75.75 0 0 1-.75.75H2.25a.75.75 0 0 1-.75-.75V1.75c0-.414.336-.75.75-.75H4c.414 0 .75.336.75.75Z" />
             </svg>
-            <span className="font-semibold text-fg-default">MrAbhishekShrestha</span>
+            <span className="font-semibold text-fg-default">AbhishekShrestha</span>
             <span>/</span>
             <span>README.md</span>
           </div>

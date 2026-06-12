@@ -10,7 +10,7 @@ export default function Education() {
       duration: "Sept 2025 – Present (Exp: Aug 2026)",
       bullets: [
         "Merit Scholarship 🎖️",
-        "Complementing my technical expertise with business acumen and product innovation skills."
+        "Complementing my technical expertise with business acumen and product innovation skills"
       ],
     },
     {
@@ -33,48 +33,71 @@ export default function Education() {
         Education
       </h2>
 
-      <div className="grid grid-cols-1 gap-4">
+      <div className="relative border-l border-border-default ml-4 pl-8 space-y-12">
         {educations.map((edu, index) => (
-          <div
-            key={index}
-            className="flex flex-col sm:flex-row gap-4 p-4 border border-border-default rounded-md bg-canvas-default hover:border-accent-border transition-colors duration-200 shadow-sm"
-          >
-            {/* University Logo */}
-            <a
-              href={edu.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="shrink-0 w-12 h-12 rounded-md overflow-hidden bg-white border border-border-default flex items-center justify-center hover:opacity-85 transition-opacity"
-            >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={edu.logo}
-                alt={`${edu.university} logo`}
-                className="w-full h-full object-contain"
-              />
-            </a>
+          <div key={index} className="relative group">
+            {/* Timeline node - GitHub action icon style */}
+            <span className="absolute -left-[44px] top-1.5 flex h-[22px] w-[22px] items-center justify-center rounded-full bg-canvas-subtle border border-border-default text-fg-muted ring-4 ring-canvas-default">
+              <svg
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                className="w-3.5 h-3.5"
+              >
+                <path d="M11.5 8a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.5 0a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z" />
+                <path d="M8 1v3.5a.5.5 0 0 1-1 0V1a1 1 0 0 1 1-1Zm0 11.5V16a1 1 0 0 1-1 0v-3.5a.5.5 0 0 1 1 0Z" />
+              </svg>
+            </span>
 
-            {/* University details */}
-            <div className="flex-1">
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-2">
-                <div>
-                  <h3 className="font-semibold text-base text-fg-default">
-                    {edu.university}
-                  </h3>
-                  <p className="text-sm text-fg-muted font-medium">
-                    {edu.degree}
-                  </p>
+            {/* Card */}
+            <div className="border border-border-default rounded-md bg-canvas-default overflow-hidden shadow-sm hover:border-accent-border transition-colors duration-200">
+              {/* Card Header */}
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 px-4 py-3 border-b border-border-default bg-canvas-subtle">
+                <div className="flex items-center gap-3">
+                  {/* University Logo */}
+                  <a
+                    href={edu.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="relative shrink-0 w-8 h-8 rounded-md overflow-hidden bg-white border border-border-default flex items-center justify-center hover:opacity-85 transition-opacity"
+                  >
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={edu.logo}
+                      alt={`${edu.university} logo`}
+                      className="w-full h-full object-contain"
+                    />
+                  </a>
+                  <div>
+                    <h3 className="font-semibold text-sm sm:text-base text-fg-default">
+                      {edu.degree}
+                    </h3>
+                    <p className="text-xs text-fg-muted">
+                      at{" "}
+                      <a
+                        href={edu.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-accent-fg hover:underline font-medium"
+                      >
+                        {edu.university}
+                      </a>
+                    </p>
+                  </div>
                 </div>
-                <div className="text-xs font-mono text-fg-muted bg-canvas-subtle border border-border-default px-2 py-0.5 rounded self-start sm:self-center">
+
+                <div className="text-xs font-mono text-fg-muted bg-canvas-default border border-border-default px-2 py-1 rounded">
                   {edu.duration}
                 </div>
               </div>
 
-              <ul className="list-disc pl-4 space-y-1.5 text-sm text-fg-default">
-                {edu.bullets.map((bullet, idx) => (
-                  <li key={idx}>{bullet}</li>
-                ))}
-              </ul>
+              {/* Card Body */}
+              <div className="p-4 sm:p-5">
+                <ul className="space-y-3 pl-4 list-disc text-sm text-fg-default leading-relaxed">
+                  {edu.bullets.map((bullet, idx) => (
+                    <li key={idx}>{bullet}</li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         ))}

@@ -13,16 +13,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Abhishek Shrestha | Full stack software engineer",
+  title: "Abhishek Shrestha | Software Engineer",
   description: "Portfolio Website",
   openGraph: {
-    title: "Abhishek Shrestha | Full stack software engineer",
+    title: "Abhishek Shrestha | Software Engineer",
     description: "Portfolio Website",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Abhishek Shrestha | Full stack software engineer",
+    title: "Abhishek Shrestha | Software Engineer",
     description: "Portfolio Website",
   }
 };

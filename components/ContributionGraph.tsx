@@ -45,16 +45,16 @@ export default function ContributionGraph() {
       let count = 0;
       let level: 0 | 1 | 2 | 3 | 4 = 0;
 
-      if (r > 0.85) {
+      if (r > 0.9) {
         count = Math.floor(random() * 3) + 1;
         level = 1;
-      } else if (r > 0.75) {
+      } else if (r > 0.80) {
         count = Math.floor(random() * 4) + 3;
         level = 2;
-      } else if (r > 0.68) {
+      } else if (r > 0.78) {
         count = Math.floor(random() * 5) + 6;
         level = 3;
-      } else if (r > 0.65) {
+      } else if (r > 0.77) {
         count = Math.floor(random() * 8) + 10;
         level = 4;
       }
