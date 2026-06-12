@@ -47,7 +47,7 @@ export default function Experience() {
   ];
 
   return (
-    <section id="experience" className="w-full py-8 border-t border-border-default transition-colors duration-200">
+    <section id="experience" className="scroll-mt-10 w-full py-8 border-t border-border-default transition-colors duration-200">
       <h2 className="text-xl font-semibold mb-6 text-fg-default font-sans">
         Professional Experience
       </h2>

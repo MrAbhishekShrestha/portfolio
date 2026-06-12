@@ -33,7 +33,7 @@ export default function SkillsGithub() {
   ];
 
   return (
-    <section id="skills-github" className="w-full py-8 border-t border-border-default transition-colors duration-200">
+    <section id="skills-github" className="scroll-mt-10 w-full py-8 border-t border-border-default transition-colors duration-200">
       <h2 className="text-xl font-semibold mb-6 text-fg-default font-sans">
         Technical Skills
       </h2>

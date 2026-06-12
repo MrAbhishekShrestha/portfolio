@@ -41,7 +41,7 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="w-full py-8 border-t border-border-default transition-colors duration-200">
+    <section id="projects" className="scroll-mt-10 w-full py-8 border-t border-border-default transition-colors duration-200">
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-xl font-semibold text-fg-default font-sans">
           Pinned projects

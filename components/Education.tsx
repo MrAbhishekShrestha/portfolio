@@ -28,7 +28,7 @@ export default function Education() {
   ];
 
   return (
-    <section id="education" className="w-full py-8 border-t border-border-default transition-colors duration-200">
+    <section id="education" className="scroll-mt-10 w-full py-8 border-t border-border-default transition-colors duration-200">
       <h2 className="text-xl font-semibold mb-6 text-fg-default font-sans">
         Education
       </h2>

@@ -13,17 +13,34 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://abhishekshrestha.link"),
   title: "Abhishek Shrestha | Software Engineer",
   description: "Portfolio Website",
+  icons: {
+    icon: [
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "Abhishek Shrestha | Software Engineer",
     description: "Portfolio Website",
     type: "website",
+    images: [
+      {
+        url: "/android-chrome-512x512.png",
+        width: 512,
+        height: 512,
+        alt: "Abhishek Shrestha Logo",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Abhishek Shrestha | Software Engineer",
     description: "Portfolio Website",
+    images: ["/android-chrome-512x512.png"],
   }
 };
 

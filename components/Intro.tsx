@@ -6,7 +6,7 @@ export default function Intro() {
   const [imgError, setImgError] = useState(false);
 
   return (
-    <section id="overview" className="w-full pt-8 pb-6 transition-colors duration-200">
+    <section id="overview" className="scroll-mt-10 w-full pt-8 pb-6 transition-colors duration-200">
       {/* Profile Header Grid */}
       <div className="flex flex-col sm:flex-row items-center gap-6 mb-8">
         {/* Profile Avatar */}
