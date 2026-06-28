@@ -15,7 +15,7 @@ export default function Intro() {
             {!imgError ? (
               // eslint-disable-next-line @next/next/no-img-element
               <img
-                src="/avatar.jpeg"
+                src="/avatar.png"
                 alt="Abhishek Shrestha"
                 className="w-full h-full object-cover"
                 onError={() => setImgError(true)}
