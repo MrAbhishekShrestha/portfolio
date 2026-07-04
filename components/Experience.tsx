@@ -10,9 +10,9 @@ export default function Experience() {
       url: "https://loopsio.com",
       duration: "January 2026 - Present",
       bullets: [
-        "Engineered and delivered a desktop MVP for a construction-tech startup using Tauri (Rust + React) in 4 months, helping secure a follow-on Phase 2 development contract through rapid iteration driven by weekly customer demos and feedback sessions.",
-        "Developed a high-performance ML inference pipeline that used coarse object detection to filter irrelevant image regions, reducing GPU segmentation workloads by 90% and enabling the processing of 1,000+ images per session with near-zero IPC latency.",
-        "Integrated AI-assisted development workflows (Claude Code) to reduce boilerplate and refactoring overhead, and accelerate delivery cycles.",
+        "Engineered and delivered a desktop MVP for an AI construction-tech startup in 4 months using Tauri (React + Rust) that analyses building crack images, helping secure a follow-on Phase 2 development contract through rapid iteration driven by weekly customer demos and feedback sessions.",
+        "Reduced GPU segmentation workloads by 90% and enabled processing of 1,000+ images per session by developing a performant ML inference pipeline leveraging coarse object detection and near-zero-latency IPC.",
+        "Built an AI business support platform for an early stage startup serving 30+ paying customers, designing REST APIs in NodeJS, realtime chatbot interface in React and GPT-4 context-engineering pipelines deployed on AWS ECS.",
       ],
     },
     {
@@ -23,12 +23,14 @@ export default function Experience() {
       url: "https://wavelet.net",
       duration: "January 2023 - August 2025",
       bullets: [
-        "Led a team of 4 engineers to design and deliver a greenfield manufacturing MRP SaaS module, owning backend REST API design, frontend delivery and collaborating closely with clients onsite to refine workflows; achieved UAT sign-off, secured MYR 1M in contract value, and converted the client into a recurring customer.",
-        "Extended and maintained a high-throughput event-driven messaging system using Spring Boot and PostgreSQL queue tables with async producers/consumers and SKIP LOCKED concurrency, processing ~500k events per day across ERP workflows including orders, inventory, and financial updates.",
-        "Designed and implemented a queue-based ETL system using PostgreSQL event tables and distributed consumer microservices to support bulk ERP client onboarding and continuous cross-system data synchronization, migrating 20M+ records from 3 legacy systems into a central platform with idempotent processing guarantees.",
+        "Secured MYR 1M in contract value and converted a client into a recurring customer by leading a team of 4 engineers to design and deliver a greenfield manufacturing MRP SaaS module, owning frontend delivery, backend REST API design and onsite client collaboration from initial requirements through to UAT sign-off.",
+        "Migrated 20M+ records from 3 legacy ERP systems into a central data platform by designing a queue-based ETL architecture using PostgreSQL event tables and distributed consumer microservices, supporting both batch and real-time ingestion with idempotent processing.",
+        "Extended a high-throughput event-driven messaging platform processing ~500k ERP events daily, leveraging asynchronous Spring Boot producers/consumers, PostgreSQL queue tables, and SKIP LOCKED concurrency across order, inventory, and financial workflows.",
+        "Designed multi-tenant PostgreSQL architectures supporting 50+ clients and 50M+ row datasets, implementing partitioning and audit-trail patterns to ensure scalability, data integrity, and traceability; complemented by DynamoDB for JWT-based RBAC authentication and tenant isolation.",
         "Spearheaded internationalisation across 50+ Angular microfrontend apps, designing a lazy-loading resource bundle that dynamically swaps languages at runtime - unlocking 3 new markets without requiring app rebuilds per locale.",
-        "Initiated and built a shared Angular component library of 200+ components, consolidating UI usage across 50+ apps into a single versioned NPM package, improving reusability and maintainability.",
-        "Designed and authored Bitbucket CI/CD pipelines across containerised Spring Boot services, micro-frontends, and versioned NPM libraries with hourly to weekly release cadences, reducing deployment time by 40% and improving cross-team release velocity.",
+        "Improved UI consistency and development velocity across 50+ microfrontend apps by building a shared Angular component library with 200+ reusable components distributed as a versioned NPM package.",
+        "Reduced deployment time by 40% and accelerated cross-team releases by designing and authoring Bitbucket CI/CD pipelines across containerised Spring Boot services, micro-frontends and NPM libraries.",
+        "Reduced incident detection and resolution time for production Spring Boot services on AWS ECS by implementing AWS CloudWatch monitoring with real-time alerts and centralised logging."
       ],
     },
     {
@@ -39,8 +41,8 @@ export default function Experience() {
       url: "https://bigledger.com",
       duration: "July 2021 - December 2021",
       bullets: [
-        "Designed a Wix-like drag-and-drop WYSIWYG website builder in Angular with a JSON-driven component engine and performant redux state management, enabling client self-serve page creation and reducing page delivery time by 3×.",
-        "Implemented client side caching with service workers in a cross-platform e-commerce app, slashing app startup time by 40% to significantly reduce user drop-off.",
+        "Reduced customer page delivery time by 3× by building a drag-and-drop WYSIWYG website builder using Angular CDK, a JSON-driven component engine, and NgRx-powered state management.",
+        "Reduced application startup time by 40% through service-worker-based caching in an Angular e-commerce application, improving load performance and reducing user drop-off.",
         "Engineered an enterprise inventory management web application using Spring Boot and Angular for handling stock transfers, currently serving various logistics companies in Malaysia.",
       ],
     },

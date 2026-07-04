@@ -21,7 +21,7 @@ export default function SkillsGithub() {
       percentage: "25%",
       color: "bg-[#ff7b72]", // Red/Coral
       dotColor: "text-[#ff7b72]",
-      skills: ["React", "Angular", "Ionic", "Redux/NgRx", "Tailwind", "Jest", "Cypress"],
+      skills: ["React", "Angular", "Ionic", "Tailwind", "Jest", "Cypress"],
     },
     {
       name: "Tools & Skills",
